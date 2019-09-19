@@ -131,9 +131,20 @@ if __name__ == '__main__':
     # Input as a word format EX: first, second,...
     userChoice = input("Which one would you like to change?\n")
 
-    if userChoice == 'first':
+    # first Period
+    if userChoice == "first":
         print('These are your choices for first period')
         print(first.courses)
         # input a number of course
         x = input("Which class would you like to choose?")
         print("Your choice is ", first.course_name(x))
+        firstPeriod = first.course_name(x)
+
+    # Second Period
+    if userChoice == "second":
+        print('These are your choices for second period')
+        print(second.courses)
+        # input a number of course
+        x = input("Which class would you like to choose?")
+        print("Your choice is ", second.course_name(x))
+        secondPeriod = second.course_name(x)
