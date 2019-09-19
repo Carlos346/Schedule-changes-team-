@@ -35,7 +35,7 @@ if __name__ == '__main__':
         'AP US / AP Macro(12)',
         'Art 2 Draw',
         'PE',
-        'Coll Read(12)',
+        'Coll Read(12)'
     ])
     third = Period([
 
@@ -60,12 +60,12 @@ if __name__ == '__main__':
     ])
 
     sixth = Period([
-        'Alg 1(9)'
-        'AP Stats'
-        'AP Environ'
-        'AP Physics'
+        'Alg 1(9)',
+        'AP Stats',
+        'AP Environ',
+        'AP Physics',
         'English II(10)'
-        
+
     ])
 
     seventh = Period([
@@ -73,13 +73,26 @@ if __name__ == '__main__':
     ])
 
     eighth = Period([
+        'Alg 1(9)',
+        'Geometry',
+        'AP Eng Lit(12)',
+        'AP World Hist(10)',
+        'AP US History(11)',
+        'Intro CS',
+        'Art 2 Draw',
+        'Graphic Design'
 
     ])
 
     master = MasterSchedule([
         first,
         second,
-        third
+        third,
+        fourth,
+        fifth,
+        sixth,
+        seventh,
+        eighth
     ])
 
     print("Input your current schedule")
@@ -91,3 +104,10 @@ if __name__ == '__main__':
     sixthPeriod = input("Sixth period class: ")
     seventhPeriod = input("Seventh period class: ")
     eighthPeriod = input("Eight period class: ")
+    # Input as a word format EX: first, second,...
+    userChoice = input("Which one would you like to change?\n")
+    
+    if userChoice == 'first':
+        print('These are your choices for first period')
+        print(first.courses)
+        x = input("Which class would you like to choose")
