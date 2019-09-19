@@ -38,6 +38,19 @@ if __name__ == '__main__':
         'Coll Read(12)'
     ])
     third = Period([
+        'Algebra II',
+        'Pre-Cal',
+        'AP Bio',
+        'Chem (9/10)',
+        'Creative Writing',
+        'AP Human Geo (9)',
+        'AP US/AP Macro (12)',
+        'Math 6 C (TTM)',
+        'Art 2 Draw',
+        'PE',
+        'Coll Read (12)',
+        'Band (MS)',
+
 
     ])
 
@@ -56,6 +69,17 @@ if __name__ == '__main__':
     ])
 
     fifth = Period([
+        'AP Cal',
+        'Geometry',
+        'Ind Skill Build',
+        'AP Chemistry',
+        'AP Eng Lang(11)',
+        'AP Human Geo(9)',
+        'Model UN',
+        'Practicum',
+        'Ind Skill Build'
+        'AP CSP',
+        'Jazz Band',
 
     ])
 
