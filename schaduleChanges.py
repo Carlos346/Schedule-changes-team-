@@ -130,8 +130,10 @@ if __name__ == '__main__':
     eighthPeriod = input("Eight period class: ")
     # Input as a word format EX: first, second,...
     userChoice = input("Which one would you like to change?\n")
-    
+
     if userChoice == 'first':
         print('These are your choices for first period')
         print(first.courses)
-        x = input("Which class would you like to choose")
+        # input a number of course
+        x = input("Which class would you like to choose?")
+        print("Your choice is ", first.course_name(x))
