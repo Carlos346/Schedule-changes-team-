@@ -158,3 +158,11 @@ if __name__ == '__main__':
         print("Your choice is", third.course_name(l))
         thirdPeriod = third.course_name(l)
 
+    # Fourth Period
+    if userChoice == "third":
+        print('These are your choices for third period')
+        print(fourth.courses)
+        # input a number of course
+        a = int(input("Which class would you like to choose?\n"))
+        print("Your choice is", fourth.course_name(l))
+        fourthPeriod = fourth.course_name(l)
