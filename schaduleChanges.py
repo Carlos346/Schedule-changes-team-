@@ -128,7 +128,7 @@ if __name__ == '__main__':
     sixthPeriod = input("Sixth period class: ")
     seventhPeriod = input("Seventh period class: ")
     eighthPeriod = input("Eight period class: ")
-    # Input as a word format EX: first, second,...
+    # Input as a word format EX: first, second, third, ...
     userChoice = input("Which one would you like to change?\n")
 
     # first Period
@@ -136,15 +136,25 @@ if __name__ == '__main__':
         print('These are your choices for first period')
         print(first.courses)
         # input a number of course
-        x = input("Which class would you like to choose?")
-        print("Your choice is ", first.course_name(x))
-        firstPeriod = first.course_name(x)
+        l = int(input("Which class would you like to choose?\n"))
+        print("Your choice is", first.course_name(l))
+        firstPeriod = first.course_name(l)
 
     # Second Period
     if userChoice == "second":
         print('These are your choices for second period')
         print(second.courses)
         # input a number of course
-        x = input("Which class would you like to choose?")
-        print("Your choice is ", second.course_name(x))
-        secondPeriod = second.course_name(x)
+        l = int(input("Which class would you like to choose?\n"))
+        print("Your choice is", second.course_name(l))
+        secondPeriod = second.course_name(l)
+
+    # Third Period
+    if userChoice == "third":
+        print('These are your choices for third period')
+        print(third.courses)
+        # input a number of course
+        l = int(input("Which class would you like to choose?\n"))
+        print("Your choice is", third.course_name(l))
+        thirdPeriod = third.course_name(l)
+
