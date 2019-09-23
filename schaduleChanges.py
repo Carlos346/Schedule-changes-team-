@@ -159,10 +159,22 @@ if __name__ == '__main__':
         thirdPeriod = third.course_name(l)
 
     # Fourth Period
-    if userChoice == "third":
-        print('These are your choices for third period')
+    if userChoice == "fourth":
+        print('These are your choices for fourth period')
         print(fourth.courses)
         # input a number of course
         a = int(input("Which class would you like to choose?\n"))
-        print("Your choice is", fourth.course_name(l))
-        fourthPeriod = fourth.course_name(l)
+        print("Your choice is", fourth.course_name(a))
+        fourthPeriod = fourth.course_name(a)
+
+    # Fifth Period
+    if userChoice == "fifth":
+        print('These are your choices for fifth period')
+        print(fifth.courses)
+        # input a number of course
+        b = int(input("Which class would you like to choose?\n"))
+        print("Your choice is", fifth.course_name(b))
+        fifthPeriod = fifth.course_name(a)
+
+    # Sixth Period
+    4
