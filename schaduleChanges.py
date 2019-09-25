@@ -48,8 +48,7 @@ if __name__ == '__main__':
         'Math 6 C (TTM)',
         'Art 2 Draw',
         'PE',
-        'Coll Read (12)',
-        'Band (MS)',
+        'Coll Read (12)'
 
 
     ])
@@ -88,12 +87,25 @@ if __name__ == '__main__':
         'AP Stats',
         'AP Environ',
         'AP Physics',
-        'English II(10)'
+        'English II(10)',
+        'Intro CS',
+        'Art 3 Draw',
+        'Health / PACE',
+        'Graphic Design'
 
     ])
 
     seventh = Period([
-
+        'Algebra II',
+        'Pre - Cal',
+        'Bio(9)',
+        'Chem(9 / 10)',
+        'AP Human Geo(9)',
+        'AP Psych / SSAS',
+        'AP CSA',
+        'AP Studio Art',
+        'PE',
+        'Graphic Design'
     ])
 
     eighth = Period([
