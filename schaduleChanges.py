@@ -174,7 +174,15 @@ if __name__ == '__main__':
         # input a number of course
         b = int(input("Which class would you like to choose?\n"))
         print("Your choice is", fifth.course_name(b))
-        fifthPeriod = fifth.course_name(a)
+        fifthPeriod = fifth.course_name(b)
 
     # Sixth Period
-    4
+    if userChoice == "sixth":
+        print('These are your choices for sixth period')
+        print(sixth.courses)
+        # Input a number of course
+        c = int(input("Which class would you like to choose?\n"))
+        print("Your choice is", sixth.course_name(c))
+        sixthPeriod = sixth.course_name(c)
+
+    # Seventh Period
