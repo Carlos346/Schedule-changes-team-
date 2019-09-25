@@ -140,12 +140,53 @@ if __name__ == '__main__':
     sixthPeriod = input("Sixth period class: ")
     seventhPeriod = input("Seventh period class: ")
     eighthPeriod = input("Eight period class: ")
-    # Input as a word format EX: first, second,...
+    # Input as a word format EX: first, second, third, ...
     userChoice = input("Which one would you like to change?\n")
 
-    if userChoice == 'first':
+    # first Period
+    if userChoice == "first":
         print('These are your choices for first period')
         print(first.courses)
         # input a number of course
-        x = input("Which class would you like to choose?")
-        print("Your choice is ", first.course_name(x))
+        l = int(input("Which class would you like to choose?\n"))
+        print("Your choice is", first.course_name(l))
+        firstPeriod = first.course_name(l)
+
+    # Second Period
+    if userChoice == "second":
+        print('These are your choices for second period')
+        print(second.courses)
+        # input a number of course
+        l = int(input("Which class would you like to choose?\n"))
+        print("Your choice is", second.course_name(l))
+        secondPeriod = second.course_name(l)
+
+    # Third Period
+    if userChoice == "third":
+        print('These are your choices for third period')
+        print(third.courses)
+        # input a number of course
+        l = int(input("Which class would you like to choose?\n"))
+        print("Your choice is", third.course_name(l))
+        thirdPeriod = third.course_name(l)
+
+    # Fourth Period
+    if userChoice == "fourth":
+        print('These are your choices for fourth period')
+        print(fourth.courses)
+        # input a number of course
+        a = int(input("Which class would you like to choose?\n"))
+        print("Your choice is", fourth.course_name(a))
+        fourthPeriod = fourth.course_name(a)
+
+    # Fifth Period
+    if userChoice == "fifth":
+        print('These are your choices for fifth period')
+        print(fifth.courses)
+        # input a number of course
+        b = int(input("Which class would you like to choose?\n"))
+        print("Your choice is", fifth.course_name(b))
+        fifthPeriod = fifth.course_name(a)
+
+    # Sixth Period
+    4
