@@ -5,6 +5,12 @@ class Period:
     def course_name(self, x):
         return self.courses[x]
 
+    def __init__(self, course):
+        self.append(course)
+
+    def __init__(self, course):
+        self.pop(course)
+
 
 class MasterSchedule:
     def __init__(self, periods):
@@ -157,9 +163,9 @@ if __name__ == '__main__':
         print('These are your choices for second period')
         print(second.courses)
         # input a number of course
-        l = int(input("Which class would you like to choose?\n"))
-        print("Your choice is", second.course_name(l))
-        secondPeriod = second.course_name(l)
+        M = int(input("Which class would you like to choose?\n"))
+        print("Your choice is", second.course_name(M))
+        secondPeriod = second.course_name(M)
 
     # Third Period
     if userChoice == "third":
@@ -198,3 +204,19 @@ if __name__ == '__main__':
         sixthPeriod = sixth.course_name(c)
 
     # Seventh Period
+    if userChoice == "seventh":
+        print('These are your choices for seventh period')
+        print(seventh.courses)
+        # Input a number of course
+        d = int(input("Which class would you like to choose?\n"))
+        print("Your choice is", seventh.course_name(c))
+        seventhPeriod = seventh.course_name(c)
+
+    # Eighth Period
+    if userChoice == "eighth":
+        print('These are your choices for eighth period')
+        print(eighth.courses)
+        # input a number of course
+        M = int(input("Which class would you like to choose?\n"))
+        print("Your choice is", eighth.course_name(M))
+        secondPeriod = eighth.course_name(M)
